@@ -13,22 +13,23 @@ with open('allen/__init__.py', 'r') as f:
 with open('README.rst', 'r', encoding='utf-8') as f:
     readme = f.read()
 
-REQUIRES = []
+REQUIRES = ['numpy', 'scipy', 'pandas',
+            'scikit-plot', 'scikit-learn', 'datacleaner']
 
 setup(
     name='allen',
     version=version,
     description='',
     long_description=readme,
-    author='U.N. Owen',
-    author_email='me@un.known',
-    maintainer='U.N. Owen',
-    maintainer_email='me@un.known',
+    author='bharath g.s',
+    author_email='royalkingpin@gmail.com',
+    maintainer='bharath g.s',
+    maintainer_email='royalkingpin@gmail.com',
     url='https://github.com/_/allen',
     license='MIT/Apache-2.0',
 
     keywords=[
-        '',
+        'data assistant', 'allen', 'prediction'
     ],
 
     classifiers=[
