@@ -11,10 +11,6 @@ Installation
 
 [WIP]
 
-.. code-block:: bash
-
-    $ pip install allen
-
 License
 -------
 
